@@ -3,7 +3,7 @@ body {
 	color: #FFFFFF;
 }
 ul.dropdown_sub {
-	background-color: #999999;
+	background: rgba(79,105,128,0.8);
 }
 .dropdown_sub li a:hover {
 	color: #CCCCCC;
@@ -23,7 +23,7 @@ menu > li a:hover {
 #logo {
 }
 #content_01 {
-	background-color: #c2e2e1;
+	background-color: #ffffff;
 }
 
 .content_update {
@@ -47,13 +47,13 @@ menu > li a:hover {
 	color: #FFFFFF;
 }
 #footer_nav {
-	background-color: #666666;
+	background-color: #384a5a;
 	color: #FFFFFF;
 }
 #footer {
 
 
-	background-color: #666666;
+	background-color: #384a5a;
 }
 
 #lect h2{
