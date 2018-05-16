@@ -1,0 +1,51 @@
+@charset "utf-8";
+body {
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0px;
+	height: 100%;
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#container {
+	height: auto;
+	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	position: relative;
+	min-width: 100%;
+}
+#content_04 {
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #c2e2e1;
+	min-height: 100%;
+	height: auto !important;
+}
+
+#content_web_desi {
+	height:3600px;
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #c2e2e1;
+	height: auto !important;
+}
+#content_computer {
+	height:2700px;
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #c2e2e1;
+	height: auto !important;
+}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.breadcrumb {
+	padding-left: 0px;
+}
+
+.breadcrumb li{
+	display:inline-block;/*���ɕ��Ԃ悤��*/
+	list-style: none;
+	font-weight: bold;
+}
+
+.breadcrumb li:after{/* ��\��*/
+  content: '>';
+  color: #85cc4a;
+}
+
+.breadcrumb li:last-child:after{
+  content: '';
+}
+
+.breadcrumb li a {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #50aba9;
+    font-size: 0.8em;
+}
+
+.breadcrumb li a:hover {
+    background: #c9dbfb;
+}
