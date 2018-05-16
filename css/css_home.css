@@ -1,96 +1,105 @@
 @charset "utf-8";
 #content_01 {
-	height: 830px;
-	width: 1080px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.content_update {
-	height: 390px;
-	width: 1080px;
-	position: relative;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	margin-top: -10px;
+  height: 830px;
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+.content_update {
+  height: 390px;
+  width: 1080px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: -10px;
+}
 
 /* 更新情報 */
-#new{
-	font-size: 16px;
-	position: absolute;
-	margin-top: 30px;
-	top: -10px;
-	line-height: 150%;
+
+#new {
+  font-size: 16px;
+  position: absolute;
+  margin-top: 30px;
+  top: -10px;
+  line-height: 150%;
 }
 
-#new dl{
-	overflow: auto;	/*高さ指定を超えるとiframe風にスクロールが出る設定。全部表示させたいならこの行と下のheightの行を削除。*/
-	height: 340px;
-	width: 1040px;
-	margin-right: 10px;
-	margin-left: 20px;
+#new dl {
+  overflow: auto;
+  /*高さ指定を超えるとiframe風にスクロールが出る設定。全部表示させたいならこの行と下のheightの行を削除。*/
+  height: 340px;
+  width: 1040px;
+  margin-right: 10px;
+  margin-left: 20px;
 }
+
 #new p {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 #topNavi {
-	height: 400px;
-	width: 1080px;
-	text-align: center;
-	display: block;
+  height: 400px;
+  width: 1080px;
+  text-align: center;
+  display: block;
 }
+
 #topNavi ul {
-	list-style-type: none;
-	overflow: hidden;
-	margin-left: 13px;
-	_zoom: 1;
-	font-size: 16px;
-	padding: 0px;
-	margin-top: 10px;
-	margin-right: 0px;
-	margin-bottom: 10px;
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 13px;
+  _zoom: 1;
+  font-size: 16px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
 }
+
 #topNavi ul a img {
-	height: 70%;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	width: 100%;
-	background-color: #FFFFFF;
+  height: 70%;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  width: 100%;
+  background-color: #FFFFFF;
 }
+
 #topNavi li a {
-	text-decoration: none;
-	color: #333333;
+  text-decoration: none;
+  color: #333333;
 }
+
 #topNavi li {
-	float: left;
-	height: 380px;
-	width: 310px;
-	display: inline;
-	padding-top: 0px;
-	padding-right: 20px;
-	padding-bottom: 0px;
-	padding-left: 20px;
+  float: left;
+  height: 380px;
+  width: 310px;
+  display: inline;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
 }
 
 #topNavi p {
-	height: 90px;
-	margin-top: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-radius: 10px;
+  height: 90px;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
 }
+
 #up_h2 {
-	text-align: center;
-	font-size: 18px;
-	line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
 }
+
 #new a {
-	color: #C2E2E1;
-	font-weight: bold;
+  color: #C2E2E1;
+  font-weight: bold;
 }

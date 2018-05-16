@@ -1,42 +1,46 @@
-﻿@charset "utf-8";
-
+@charset "utf-8";
 table, tr, td {
-	color: #333;
+  color: #333;
 }
 
 table {
-	margin: 20px;
+  margin: 20px;
 }
 
 td {
-	padding: 2px 30px 5px 0px;
+  padding: 2px 30px 5px 0px;
 }
 
 p.member {
-	text-indent: 20px;
-	margin: 2px;
+  text-indent: 20px;
+  margin: 2px;
 }
 
 /* 教授のリスト */
+
 ul.member li {
-	padding-left: 5px;
-	padding-bottom: 20px;
+  padding-left: 5px;
+  padding-bottom: 20px;
 }
 
 /* 卒業生のリスト */
+
 ul.left {
-	list-style-type: none;
-	float:left;
+  list-style-type: none;
+  float: left;
 }
+
 ul.left-c {
-	list-style-type: none;
-	float:left;
+  list-style-type: none;
+  float: left;
 }
+
 ul.right-c {
-	list-style-type: none;
-	float:left;
+  list-style-type: none;
+  float: left;
 }
+
 ul.right {
-	list-style-type: none;
-	float:left;
+  list-style-type: none;
+  float: left;
 }
