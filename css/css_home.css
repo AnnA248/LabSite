@@ -54,18 +54,16 @@
   _zoom: 1;
   font-size: 16px;
   padding: 0px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 0px;
   margin-bottom: 10px;
 }
 
 #topNavi ul a img {
-  height: 70%;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
+  height: 65%;
   width: 100%;
+  margin-bottom: 10px;
+  border-style: none;
   background-color: #FFFFFF;
 }
 
