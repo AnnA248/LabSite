@@ -1,77 +1,73 @@
-body {
-  background-color: #edf7fa;
-  color: #FFFFFF;
-}
+@charset "utf-8";
+    body {
+      background-color: #edf7fa;
+      color: #FFFFFF;
+    }
 
-ul.dropdown_sub {
-  background: rgba(79, 105, 128, 0.8);
-}
+    ul.dropdown_sub {
+      background: rgba(79, 105, 128, 0.8);
+    }
 
-.dropdown_sub li a:hover {
-  color: #CCCCCC;
-}
+    .dropdown_sub li a:hover {
+      color: #CCCCCC;
+    }
 
-menu>li a:hover {
-  color: #CCCCCC;
-}
+    menu>li a:hover {
+      color: #CCCCCC;
+    }
 
-.menu>li a {
-  color: #FFFFFF;
-}
+    .menu>li a {
+      color: #FFFFFF;
+    }
 
-#header {
-  background-color: #384a5a;
-}
+    #header {
+      background-color: #384a5a;
+    }
 
-#logo {}
+    #logo {}
 
-#content_01 {
-  background-color: #ecf9f9;
-}
+    #content_01 {
+      background-color: #ecf9f9;
+    }
 
-.content_update {}
+    .content_update {}
 
-#new dl {
-  background-color: #50ABA9;
-}
+    #new dl {
+      background-color: #50ABA9;
+    }
 
-#footer p {
-  color: #FFFFFF;
-  text-align: center;
-}
+    #up_h2 {
+      color: #50ABA9;
+    }
 
-#up_h2 {
-  color: #50ABA9;
-}
+    #topNavi li {}
 
-#topNavi li {}
+    #topNavi p {
+      background-color: #50ABA9;
+      color: #FFFFFF;
+    }
 
-#topNavi p {
-  background-color: #50ABA9;
-  color: #FFFFFF;
-}
+    footer {
+      background-color: #384a5a;
+    }
 
-#footer_nav {
-  background-color: #384a5a;
-  color: #FFFFFF;
-}
+    #footer_nav {
+      background-color: #384a5a;
+      color: #FFFFFF;
+    }
 
-#footer {
-  background-color: #384a5a;
-}
+    #lect h2 {
+      margin-bottom: 20px;
+    }
 
-#lect h2 {
-  margin-bottom: 20px;
-}
+    #lect h3 {
+      color: #FFFFFF;
+    }
 
-#lect h3 {
-  color: #FFFFFF;
-}
+    #lect p {
+      color: #333333;
+    }
 
-#lect p {
-  color: #333333;
-}
-
-#lect li {
-  color: #333333;
-}
+    #lect li {
+      color: #333333;
+    }
