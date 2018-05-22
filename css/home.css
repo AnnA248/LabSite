@@ -59,7 +59,18 @@
       margin-bottom: 10px;
     }
 
-    #topNavi ul a img {
+    #topNavi li {
+      float: left;
+      height: 380px;
+      width: 310px;
+      display: inline;
+      padding-top: 0px;
+      padding-right: 20px;
+      padding-bottom: 0px;
+      padding-left: 20px;
+    }
+
+    #topNavi li a img {
       height: 65%;
       width: 100%;
       margin-bottom: 10px;
@@ -70,17 +81,6 @@
     #topNavi li a {
       text-decoration: none;
       color: #333333;
-    }
-
-    #topNavi li {
-      float: left;
-      height: 380px;
-      width: 310px;
-      display: inline;
-      padding-top: 0px;
-      padding-right: 20px;
-      padding-bottom: 0px;
-      padding-left: 20px;
     }
 
     #topNavi p {
