@@ -43,7 +43,6 @@
     #topNavi {
       height: 400px;
       width: 1080px;
-      text-align: center;
       display: block;
     }
 
@@ -75,7 +74,6 @@
       width: 100%;
       margin-bottom: 10px;
       border-style: none;
-      background-color: #FFFFFF;
     }
 
     #topNavi li a {
@@ -86,8 +84,9 @@
     #topNavi p {
       height: 90px;
       margin-top: 0px;
-      padding-top: 5px;
-      padding-bottom: 5px;
+      padding: 5px;
+      line-height: 140%;
+      text-align: left;
       border-radius: 10px;
     }
 
