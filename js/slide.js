@@ -10,7 +10,7 @@ window.addEventListener('load', setTimeout(function() {
     change2();
     setTimeout(function() {
       requestAnimationFrame(change1)
-    }, 13000);
+    }, 12000);
   }
 
   function change2() {
@@ -27,10 +27,10 @@ window.addEventListener('load', setTimeout(function() {
       a -= 0.005;
       document.getElementById("slide").children[0].style.opacity = a;
     }, 1);
-    if (a < 0) {
+    if (a < 1) {
       clearInterval(timer1);
-      a = 0.5;
+      a = 1;
     }
   }
   change1();
-}, 5000))
+}, 8000))
