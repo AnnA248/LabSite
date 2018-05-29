@@ -6,24 +6,11 @@
   <link href="css/css_01.css" rel="stylesheet" type="text/css" />
   <link href="css/css_02.css" rel="stylesheet" type="text/css" />
   <link href="css/home.css" rel="stylesheet" type="text/css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-  <script src="js/jquery.bxslider.js"></script>
-
-  <link href="css/jquery.bxslider.css" rel="stylesheet" />
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-
-      $('.bxslider').bxSlider({
-
-        auto: true,
-
-      });
-
-    });
-  </script>
   <script src="js/bar.js"></script>
+  <script src="js/slide.js"></script>
+
+  <link href="css/slide.css" rel="stylesheet" type="text/css" />
   <link href="css/color.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -59,18 +46,12 @@
       </div>
     </div>
 
-
-    <ul class="bxslider" "padding-top: 67px;">
-      <li>
-        <div align="center"><img src="img/slide_01.jpg"></div>
-      </li>
-      <li>
-        <div align="center"><img src="img/slide_02.jpg"></div>
-      </li>
-      <li>
-        <div align="center"><img src="img/slide_03.jpg"></div>
-      </li>
-    </ul>
+    <div id="content_06">
+      <div id="slide">
+        <img class="first" src="img/slide_01.jpg" "padding-top: 67px;">
+        <img class="second" src="img/slide_02.jpg">
+      </div>
+    </div>
 
     <div id="content_01">
 
@@ -83,7 +64,7 @@
               <a href="work/media_ad2017_3.zip" target="_blank">3資料</a>
               <a href="work/media_ad2017_4.zip" target="_blank">4資料</a>
               <a href="work/media_ad2017_5.zip" target="_blank">5資料</a></p>
-            <p>&nbsp;</p>
+            </br>
             <ul>
               <li><a href="secret/seminar/200905/joyful.cgi">2017年10月17日　 高大連携授業 「体験Webアニメーション」 学生作品</a></li>
               </br>
@@ -181,7 +162,7 @@
                 <dd><a href="lab.html">研究</a></dd>
                 <dd><a href="work.html">作品</a></dd>
                 <dd><a href="http://ns.flash.tuis.ac.jp/blog/">ブログ</a></dd>
-                <dd><a href="./secret/semi/cgi-bin/bbs/topics.cgi">掲示板</a></dd>
+                <dd><a href="secret/semi/cgi-bin/bbs/topics.cgi">掲示板</a></dd>
               </dl>
             </div>
           </div>

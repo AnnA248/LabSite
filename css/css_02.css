@@ -143,12 +143,12 @@
       position: relative;
     }
 
+/* フッター */
     footer {
       height: 400px;
       width: 100%;
       bottom: 0px;
       position: absolute;
-      padding: 0px;
     }
 
     footer p {
@@ -157,14 +157,12 @@
     }
 
     #footer_nav {
+      width: 980px;
       height: 300px;
       padding-top: 20px;
       padding-bottom: 20px;
-    }
-
-    #footer_nav_container {
-      width: 980px;
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     #footer_nav_container .nav01 {
@@ -184,7 +182,7 @@
 
     #footer_nav_container .nav04 {
       float: left;
-      width: 140px;
+      width: 100px;
     }
 
     #footer_nav_container dt {

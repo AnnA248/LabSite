@@ -2,9 +2,7 @@
     body {
       font-family: "ＭＳ ゴシック", "Osaka－等幅";
       font-size: 18px;
-      text-decoration: none;
       margin: 0px;
-      height: 100%;
       padding-top: 100px;
       padding-right: 0px;
       padding-bottom: 0px;
@@ -12,11 +10,15 @@
     }
 
     #container {
-      height: auto;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
       width: 100%;
       min-height: 100%;
       height: auto !important;
-      position: relative;
       min-width: 100%;
     }
 
@@ -30,3 +32,18 @@
       min-height: 100%;
       height: auto !important;
     }
+
+@media screen and (max-width: 1080px){
+    #container {
+      height: auto;
+      width: 1080px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      width: 1080px;
+    }
+
+  }
