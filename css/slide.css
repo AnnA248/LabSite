@@ -1,23 +1,29 @@
 ﻿@charset "utf-8";
 
-    #content_06 {
-      height: 360px;
-      width: 1080px;
-      margin-right: auto;
-      margin-left: auto;
-    }
+#content_06 {
+  height: 360px;
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-    #slide {
-        position: relative;
-    }
+#slide{
+    position: relative;
 
-    .first {
-        position: absolute;
-        z-index: 2;
-        opacity: 1;
-    }
+}
+.first{
+    position: absolute;
+    z-index: 2;
+    opacity: 1.0;
+}
+.second{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.0;
+}
 
-    .second {
-        position: absolute;
-        z-index: 1;
-    }
+.third{
+    position: absolute;
+    z-index: 0;
+    opacity: 0.0;
+}
