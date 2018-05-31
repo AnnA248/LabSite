@@ -44,17 +44,16 @@
       height: 400px;
       width: 1080px;
       display: block;
+      margin-top: 20px;
     }
 
     #topNavi ul {
       list-style-type: none;
       overflow: hidden;
-      margin-left: 13px;
       _zoom: 1;
       font-size: 16px;
-      padding: 0px;
-      margin-top: 20px;
-      margin-right: 0px;
+      padding-right: 10px;
+      padding-left: 10px;
       margin-bottom: 10px;
     }
 
@@ -74,6 +73,7 @@
       width: 100%;
       margin-bottom: 10px;
       border-style: none;
+      border-radius: 10px;
     }
 
     #topNavi li a {
@@ -85,7 +85,7 @@
       height: 90px;
       margin-top: 0px;
       padding: 5px;
-      line-height: 140%;
+      line-height: 170%;
       text-align: left;
       border-radius: 10px;
     }

@@ -159,7 +159,7 @@
     #footer_nav {
       width: 980px;
       height: 300px;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 20px;
       margin-left: auto;
       margin-right: auto;
@@ -177,7 +177,7 @@
 
     #footer_nav_container .nav03 {
       float: left;
-      width: 200px;
+      width: 240px;
     }
 
     #footer_nav_container .nav04 {
