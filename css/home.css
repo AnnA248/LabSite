@@ -24,6 +24,7 @@
       position: absolute;
       margin-top: 30px;
       top: -10px;
+      *top: 0;
       line-height: 150%;
     }
 
@@ -31,9 +32,13 @@
       overflow: auto;
       /*高さ指定を超えるとiframe風にスクロールが出る設定。全部表示させたいならこの行と下のheightの行を削除。*/
       height: 340px;
-      width: 1040px;
+      *height: 360px;
+      width: 1080px;
       margin-right: 10px;
-      margin-left: 20px;
+    }
+
+    * html #new dl {
+      margin: 0;
     }
 
     #new p {
@@ -44,50 +49,79 @@
       height: 400px;
       width: 1080px;
       display: block;
-      margin-top: 20px;
     }
 
-    #topNavi ul {
+    #top_nav_container .nav01 {
+      float: left;
+      width: 385px;
+      *width: 365px;
+      *margin-right: 20px;
+    }
+
+    #top_nav_container .nav02 {
+ 	    float: left;
+      width: 385px;
+      *width: 365px;
+    }
+
+    #top_nav_container .nav03 {
+		  float : right;
+    }
+
+    * html #top_nav_container .nav01 {
+      float: left;
+      width: 365px;
+    }
+
+    * html #top_nav_container .nav02 {
+      float: left;
+      width: 365px;
+    }
+
+    * html #top_nav_container .nav03 {
+      float : right;
+    }
+
+    #top_nav_container ul {
       list-style-type: none;
       overflow: hidden;
       _zoom: 1;
       font-size: 16px;
-      padding-right: 10px;
-      padding-left: 10px;
+      padding: 0px;
+      margin-top: 20px;
+      margin-right: 0px;
+      *margin-left: 0;
       margin-bottom: 10px;
     }
 
-    #topNavi li {
+    #top_nav_container li {
       float: left;
       height: 380px;
       width: 310px;
       display: inline;
-      padding-top: 0px;
-      padding-right: 20px;
-      padding-bottom: 0px;
-      padding-left: 20px;
     }
 
-    #topNavi li a img {
+    #top_nav_container li a img {
       height: 65%;
       width: 100%;
       margin-bottom: 10px;
       border-style: none;
-      border-radius: 10px;
+	    border-radius: 10px;
     }
 
-    #topNavi li a {
+    #top_nav_container li a {
       text-decoration: none;
       color: #333333;
     }
 
-    #topNavi p {
+    #top_nav_container p {
       height: 90px;
-      margin-top: 0px;
+      margin-top: 10px;
       padding: 5px;
-      line-height: 170%;
+      line-height: 140%;
       text-align: left;
       border-radius: 10px;
+	    line-height: 1.7em;
     }
 
     #up_h2 {

@@ -1,4 +1,9 @@
 @charset "utf-8";
+#lect {
+  width: 1080px;
+  height: auto;
+}
+
 #lect p {
   padding-right: 5px;
   padding-left: 5px;

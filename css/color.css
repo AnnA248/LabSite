@@ -6,6 +6,8 @@
 
     ul.dropdown_sub {
       background: rgba(79, 105, 128, 0.8);
+      background: #384a5a\9;
+      *background: none;
     }
 
     .dropdown_sub li a:hover {
@@ -52,6 +54,7 @@
     }
 
     #footer_nav {
+      background-color: #384a5a;
       color: #FFFFFF;
     }
 
