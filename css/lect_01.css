@@ -5,18 +5,48 @@
 }
 
 #lect.work {
-  *height: 1070px;
   height: 1070px\9;
+  *height: 1070px;
 }
 
 #lect.lab {
-  *height: 1090px;
   height: 1090px\9;
+  *height: 1090px;
 }
 
 #lect.kougi_top {
-  *height: 1670px;
   height: 1700px\9;
+  *height: 1670px;
+}
+
+#lect.comp {
+  height: 3500px\9;
+  *height: 2930px;
+}
+
+#lect.web_desi {
+  height: 3870px\9;
+  *height: 3580px;
+}
+
+#lect.grap {
+  height: 3850px\9;
+  *height: 3500px;
+}
+
+#lect.web_ani {
+  height: 3450px\9;
+  *height: 3150px;
+}
+
+#lect.web_pro {
+  height: 4000px\9;
+  *height: 3800px;
+}
+
+#lect.semi {
+  height: 1150px\9;
+  *height: 1120px;
 }
 
 #lect p {
@@ -77,6 +107,7 @@
   list-style-type: none;
   padding: 0px 15px;
   *margin-left: 0;
+  *padding-right: 0;
 }
 
 #link_box ul li {
