@@ -43,6 +43,7 @@
     }
 
     #content_04 {
+      height: auto;
       width: 1080px;
       margin-right: auto;
       margin-left: auto;
@@ -51,10 +52,6 @@
       background-color: #c2e2e1;
       min-height: 100%;
       height: auto !important;
-    }
-
-    * html #content_04 {
-      clear: both;
     }
 
 @media screen and (max-width: 1080px){

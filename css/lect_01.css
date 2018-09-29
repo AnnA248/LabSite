@@ -4,6 +4,16 @@
   height: auto;
 }
 
+#lect.work {
+  *height: 1070px;
+  height: 1070px\9;
+}
+
+#lect.lab {
+  *height: 1090px;
+  height: 1090px\9;
+}
+
 #lect p {
   padding-right: 5px;
   padding-left: 5px;

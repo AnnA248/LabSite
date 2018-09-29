@@ -168,6 +168,12 @@
 
     .content_00 {
       height: 400px;
+      *display: none;
+      display: none\9;
+    }
+
+    * html .content_00 {
+      display: none;
     }
 
     .head_box {
