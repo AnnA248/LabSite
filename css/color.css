@@ -10,6 +10,10 @@
       *background: none;
     }
 
+    #sub.dropdown_sub {
+      *background: #384a5a;
+    }
+
     .dropdown_sub li a:hover {
       color: #CCCCCC;
     }
