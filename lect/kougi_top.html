@@ -1,14 +1,25 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN","http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Yasuoka Lab</title>
+
+	<script type="text/javascript">
+		 document.createElement("section");
+		 document.createElement("footer");
+		 document.createElement("span");
+	</script>
+
 	<link href="../css/css_01.css" rel="stylesheet" type="text/css" />
 	<link href="../css/css_02.css" rel="stylesheet" type="text/css" />
 	<link href="../css/lect_01.css" rel="stylesheet" type="text/css" />
 	<link href="../css/lect_02.css" rel="stylesheet" type="text/css" />
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="../js/bar_02.js"></script>
+
 	<link href="../css/color.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -21,7 +32,7 @@
 				<ul class="menu">
 					<li><a href="../lab.html">研究</a></li>
 					<li class="dropdown"><a href="kougi_top.html" class="init-bottom">講義</a>
-						<ul class="dropdown_sub">
+						<ul id="sub" class="dropdown_sub">
 							<li><a href="computer.html">コンピュータ概論</a></li>
 							<li><a href="web_desi.html">Webデザイン演習</a></li>
 							<li><a href="grap.html">コンピュータグラフィクス基礎</a></li>
@@ -31,7 +42,7 @@
 						</ul>
 					</li>
 					<li class="dropdown"><a href="../member/prof.html" class="init-bottom">メンバー</a>
-						<ul class="dropdown_sub">
+						<ul id="sub" class="dropdown_sub">
 							<li><a href="../member/prof.html">教授</a></li>
 							<li><a href="../member/member_01.html">3年生</a></li>
 							<li><a href="../member/member_02.html">4年生</a></li>
@@ -63,7 +74,7 @@
 			<!--パンくずリスト　終-->
 
 			<!--↓講義　始-->
-			<div id="lect">
+			<div id="lect" class="kougi_top">
 				<h1>注意・警告!!</h1>
 				<p class="kougi">
 					最近、学術研究機関における学習教材用掲示板において不適切な文面および画像などを投稿する業者がいます。<br> 学術研究の妨げになる行為をする業者および投稿者に対しては適切な処理をさせていただきIPおよび名称の開示を行います。
