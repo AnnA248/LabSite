@@ -1,4 +1,14 @@
 @charset "utf-8";
+#lect.list_01 {
+  height: 3430px\9;
+  *height: 3150px;
+}
+
+#lect.list_02 {
+  height: 1380px\9;
+  *height: 1100px;
+}
+
 table, tr, td {
   color: #333;
 }
